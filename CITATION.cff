@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this design, please cite it using the metadata below."
+title: "Wideband Vivaldi Antenna and Balun"
+type: software
+authors:
+  - family-names: Sondur
+    given-names: Cem
+repository-code: "https://github.com/csondurr/wideband-vivaldi-antenna-balun"
+license: MIT
+date-released: 2026-07-18

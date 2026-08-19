@@ -82,20 +82,20 @@ The repository currently includes the CST model and Gerber package for the balun
 ```text
 wideband-vivaldi-antenna-balun/
 ├── README.md
-├── Vivaldi.cst
-├── Vivaldi.pdf
-├── VivaldiGerber.zip
-├── Balun.cst
-└── BalunGerber.zip
+├── simulation/Vivaldi.cst
+├── docs/Vivaldi.pdf
+├── hardware/gerbers/VivaldiGerber.zip
+├── simulation/Balun.cst
+└── hardware/gerbers/BalunGerber.zip
 ```
 
 ### File descriptions
 
-- `Vivaldi.cst` — CST electromagnetic model of the antenna.
-- `Vivaldi.pdf` — Turkish simulation and validation report.
-- `VivaldiGerber.zip` — PCB manufacturing outputs for the antenna.
-- `Balun.cst` — CST model of the wideband balun/feed transition.
-- `BalunGerber.zip` — PCB manufacturing outputs for the balun.
+- `simulation/Vivaldi.cst` — CST electromagnetic model of the antenna.
+- `docs/Vivaldi.pdf` — Turkish simulation and validation report.
+- `hardware/gerbers/VivaldiGerber.zip` — PCB manufacturing outputs for the antenna.
+- `simulation/Balun.cst` — CST model of the wideband balun/feed transition.
+- `hardware/gerbers/BalunGerber.zip` — PCB manufacturing outputs for the balun.
 
 ## Recommended Hardware Integration
 
@@ -132,6 +132,17 @@ Before final use:
 Electrical and Electronics Engineering  
 RF, microwave, antenna and signal-processing design
 
-## Rights and Use
 
-Copyright (c) 2026 Cem Sondur. No open-source hardware licence has currently been granted. The files are shared for engineering review, education and experimental development without warranty. Independently verify the design before fabrication, transmission or safety-critical use.
+
+## Repository maintenance
+
+**Evidence boundary:** CST simulation and fabrication data only; assembled antenna/balun measurements remain outstanding.
+
+- [Validation status](docs/VALIDATION.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Safety and security](SECURITY.md)
+- [Citation metadata](CITATION.cff)
+
+## License
+
+Copyright (c) 2026 Cem Sondur. Distributed under the [MIT License](LICENSE). Component models and other third-party material remain subject to their original licenses.
